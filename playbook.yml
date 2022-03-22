@@ -1,0 +1,13 @@
+---
+- name: 'copy the file'
+  hosts : dev_server
+  remote_user: test
+  tasks:
+    - name: 'coping the file'
+      copy:
+        src: deploy/index.html
+        dest: /home/ubuntu/
+        
+        
+
+     
