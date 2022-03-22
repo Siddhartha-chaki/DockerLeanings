@@ -5,7 +5,7 @@
   tasks:
     - name: 'coping the file'
       copy:
-        src: deploy/index.html
+        src: target/test-0.0.1-SNAPSHOT-jar-with-dependencies.jar
         dest: /home/ubuntu/
         
         
